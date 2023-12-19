@@ -6,7 +6,7 @@
     "clean": "rimraf dist",
     "build": "tsup src/index.ts"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:yubing744/keccak256-webgpu.git",
   "author": "Owen Wu <yubing744@163.com>",
   "license": "Apache License 2.0",
