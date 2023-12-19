@@ -1,0 +1,19 @@
+{
+  "name": "keccak256-webgpu",
+  "version": "0.1.0",
+  "description": "An implementation of the Keccak256 algorithm using WebGPU.",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsup src/index.ts"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:yubing744/keccak256-webgpu.git",
+  "author": "Owen Wu <yubing744@163.com>",
+  "license": "Apache License 2.0",
+  "devDependencies": {
+    "@webgpu/types": "^0.1.34",
+    "rimraf": "^3.0.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}

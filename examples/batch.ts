@@ -1,11 +1,4 @@
-# keccak256-webgpu
-An implementation of the Keccak256 algorithm using WebGPU.
-
-## Example
-
-```
-
-import { keccak256_gpu_batch } from 'keccak256-webgpu';
+import { keccak256_gpu_batch } from '../src';
 
 const messages = [
   new Uint8Array([0x01, 0x00, 0x00, 0x00]), // int 1
@@ -43,5 +36,3 @@ for (let i = 0; i < messages.length; i++) {
 
   console.log('');
 }
-
-```
